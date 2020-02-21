@@ -1,1 +1,1 @@
-jupyter nbconvert --to python *.ipynb --output-dir=
+jupyter nbconvert --to python *.ipynb --output-dir=outputs  
