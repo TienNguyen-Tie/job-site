@@ -11,7 +11,7 @@ class SingleThread (threading.Thread):
         threading.Thread.__init__(self)
         self.threadID = threadID
         self.name = name
-        self.counter = counter
+        self.counter = counter 
 
     def run(self):
         print(f'Start running {cp}{self.name}')
@@ -35,4 +35,4 @@ for t in threads:
 
 print("Exiting Main Thread")
 
-subprocess.run(["mv", "./*.csv","./outputs-csv/"])
+subprocess.run(["mv", "./*.csv","./outputs-csv"])
