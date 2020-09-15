@@ -35,4 +35,4 @@ for t in threads:
 
 print("Exiting Main Thread")
 
-subprocess.run(["mv", "./*.csv","./outputs-csv"])
+subprocess.run(["mv", " ./*.csv"," ./outputs-csv"])
